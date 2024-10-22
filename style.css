@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(219, 216, 241);
+   
+}
+.container{
+    width:1000px;
+    height: 600px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 350px;
+    
+}
+.row1{
+    display: flex;
+    align-self: center;
+}
+.head{
+    padding-top: 40px;
+    padding-left:  50px;
+}
+.pic{
+    margin-left: 50px;
+}
+.actors{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+}
+h3{
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+}
+.row2{
+    margin-left: 400px;
+    margin-top: -570px;
+}
+.buy{
+    width: 70px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top:-60px;
+}
